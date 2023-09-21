@@ -1,5 +1,5 @@
 const API = {
-    url: ".../data/menu.json",
+    url: "https://xmurungi.github.io/coffeemasters-vanilla-main/data/menu.json",
     fetchmenu: async () => {
         const result = await fetch(API.url);
         return await result.json();

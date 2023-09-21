@@ -28,6 +28,10 @@ const Router = {
         let pageElement = null; 
 
         switch(route){
+            case "coffeemasters-vanilla-main/":
+                pageElement = document.createElement("menu-page");
+                break;
+                
             case "/":
                 pageElement = document.createElement("menu-page");
                 break;
